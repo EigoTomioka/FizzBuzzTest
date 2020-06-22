@@ -17,7 +17,7 @@ void loop()
     g_count=1;
   }
 
-	if (g_count%5==0 && g_count%3!=0){
+  if (g_count%5==0 && g_count%3!=0){
     printf("%d: Fizz\n",g_count);
   }
   else if(g_count%3==0 && g_count%5!=0){
